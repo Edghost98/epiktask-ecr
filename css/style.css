@@ -1,0 +1,36 @@
+body{
+    padding: 1.5rem;
+}
+
+#lista-de-tarefas{
+    /* mobile first*/
+    /* nested class*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.2rem;
+
+   /* @media (min-width: 768px){
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    @media (min-width: 1024px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    */
+}
+
+form{
+    max-width: 600px;
+    margin: 1.78rem auto;
+
+    .botoes{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}
+
+
+
