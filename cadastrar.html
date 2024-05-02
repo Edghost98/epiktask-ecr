@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/cadastrar.js" defer></script>
 
     <title>Epic Task</title>
 </head>
@@ -26,19 +27,19 @@
 
         <div class="nes-field">
             <label for="descricao">Descrição</label>
-            <textarea id="descricao" class="nes-textarea"></textarea>
+            <input type="text" id="descricao" class="nes-textarea">
         </div>
 
-        <div class="nes-field">
+        <div class="nes-Pontos">
             <label for="pontos">Pontos</label>
-            <input id="number" id="pontos" class="nes-input">
+            <input type="text" id="pontos" class="nes-input">
         </div>
 
         <div class="botoes">
             <a href="/index.html" class="nes-btn is-error">
                 Cancelar
             </a>
-            <button type="submit" class="nes-btn is-primary">
+            <button id="botao-cadastrar" class="nes-btn is-primary">
                 Salvar
             </button> 
         </div>
