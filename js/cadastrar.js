@@ -7,7 +7,8 @@ document.querySelector("#botao-cadastrar").addEventListener("click", (e) => {
         id: "id" + new Date().getTime(),
         titulo: form.titulo.value,
         descricao: form.descricao.value,
-        pontos: form.pontos.value
+        pontos: form.pontos.value,
+        status: 0
     }
     //JSON
     
